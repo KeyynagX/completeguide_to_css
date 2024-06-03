@@ -1,0 +1,12 @@
+.inputtext {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.is-error {
+    border-color: #D40152;
+}
+
+.is-error::placeholder {
+    color: #D40152;
+}
