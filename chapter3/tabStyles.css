@@ -1,0 +1,36 @@
+.tabnav{
+    display: flex;
+    list-style: none;
+}
+
+.tabnav > li {
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+.tabnav > li :first-child{
+    border-left: 1px solid #aaa;
+}
+
+.tabnav > li > a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.is-tabnav-active {
+    background-color: #0093ff;
+}
+
+.is-tabnav-active > a {
+    pointer-events: none;
+    color: #fff;
+}
+
+.is-inputtext-error {
+    background-color: #D40152;
+}
+
+.is-inputtext-error::placeholder {
+    color: white;
+}
